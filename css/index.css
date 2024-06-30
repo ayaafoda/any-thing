@@ -1,0 +1,27 @@
+.loader {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 999999;
+  background-color: #fff;
+  /* display: none; */
+  transition-duration: .3s;
+}
+
+.loader-img {
+  width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader-img img {
+  width: 280px;
+}
+.loader-hidden {
+  display: none;
+  opacity: 0;
+}
